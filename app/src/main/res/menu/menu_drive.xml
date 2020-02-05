@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.example.eventosx.FotografiasDrive">
+    <item
+        android:id="@+id/action_camara"
+        android:orderInCategory="100"
+        android:title="Hacer foto"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_galeria"
+        android:orderInCategory="101"
+        android:title="Elegir imagen"
+        app:showAsAction="never" />
+</menu>
